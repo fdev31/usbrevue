@@ -41,10 +41,8 @@ setup(
             'Topic :: System :: Hardware',
             'Topic :: System :: Hardware :: Hardware Drivers',
           ],
-        py_modules  = [
-            'usbrevue',
-            'util',
-          ],
+        install_requires = ['pcapy', 'python-gflags', 'scapy'],
+        packages = ['usbrevue'],
         scripts = [
             'codegen.py',
             'usbcap',

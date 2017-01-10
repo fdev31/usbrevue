@@ -42,7 +42,7 @@ import datetime
 #import logging
 #logging.basicConfig(level=logging.DEBUG)
 
-from util import reverse_update_dict, apply_mask
+from .util import reverse_update_dict, apply_mask
 
 USBMON_PACKET_FORMAT = dict(
     # Attr        fmt     offset
